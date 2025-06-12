@@ -4,7 +4,7 @@ Welcome to **NeoTech**, a next-generation, futuristic tech platform website desi
 
 ## 🌐 Live Demo
 
-👉 [Visit NeoTech Website](https://neotech.pages.dev) *(Replace with your domain)*
+👉 [Visit NeoTech Website](https://neotech.pages.dev)
 
 ---
 
