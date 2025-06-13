@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KE2SRYJYM9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KE2SRYJYM9');
+</script>
+  <meta charset="UTF-8">
+  <title>Futuristic Math & Combo Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+</head>
+<body>
+<div id="particles-js"></div>
+
+  <div class="container">
+    <header>
+      <h1>✨Number Theory & Combinatorics✨</h1>
+    </header>
+    <main>
+      <section id="menu">
+        <button onclick="showSection('numberTheory')">Number Theory</button>
+        <button onclick="showSection('combinatorics')">Combinatorics</button>
+      </section>
+
+      <section id="numberTheory" class="section hidden">
+        <h2>Number Theory</h2>
+        <div class="buttons-grid">
+          <button onclick="divisibility()">Divisibility</button>
+          <button onclick="computeGCD()">G.C.D</button>
+          <button onclick="computeLCM()">L.C.M</button>
+          <button onclick="countDivisors()">Number of Divisors</button>
+          <button onclick="sumDivisors()">Sum of Divisors</button>
+          <button onclick="computeTotient()">Euler's Totient</button>
+          <button onclick="primeCheck()">Prime Check</button>
+        </div>
+        <div id="nt-output" class="output"></div>
+      </section>
+
+      <section id="combinatorics" class="section hidden">
+        <h2>Combinatorics</h2>
+        <div class="combo-group">
+          <input id="elements" type="text" placeholder="Elements (e.g. ABC)">
+          <input id="subsetSize" type="number" placeholder="Subset size">
+          <button onclick="computeCombinations()">Combinations</button>
+          <button onclick="computePermutations()">Permutations</button>
+        </div>
+        <div id="combo-output" class="output"></div>
+      </section>
+    </main>
+    <footer>
+      <p>Developed by Taief</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
