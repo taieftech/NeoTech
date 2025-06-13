@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KE2SRYJYM9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KE2SRYJYM9');
+</script>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contests | NeoTech</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 60px 20px;
+    }
+ 
+
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #00faff;
+      margin-bottom: 40px;
+      animation: textNeonPulse 2s ease infinite;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      width: 100%;
+      max-width: 1200px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(0, 255, 255, 0.2);
+      border-radius: 15px;
+      padding: 30px;
+      transition: all 0.4s ease;
+      backdrop-filter: blur(10px);
+      cursor: pointer;
+      box-shadow: 0 0 15px #00faff66;
+      text-align: center;
+    }
+
+    .card:hover {
+      transform: translateY(-8px) scale(1.02);
+      background: rgba(0, 255, 255, 0.1);
+      box-shadow: 0 0 20px #00faffaa;
+    }
+
+    .card h3 {
+      color: #00faff;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+
+    .card a {
+      display: inline-block;
+      padding: 8px 18px;
+      background-color: #00faff;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .card a:hover {
+      background-color: #00d1d1;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+    }
+#particles-js {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: radial-gradient(circle at center, #0d0221 0%, #0a0016 100%);
+  z-index: -1;
+}
+@keyframes textNeonPulse {
+  0% {
+    text-shadow: 0 0 3px #00faff, 0 0 6px #00faff, 0 0 12px #00faff;
+    color: #00faff;
+  }
+  25% {
+    text-shadow: 0 0 3px #ff00c8, 0 0 6px #ff00c8, 0 0 12px #ff00c8;
+    color: #ff00c8;
+  }
+  50% {
+    text-shadow: 0 0 3px #9d00ff, 0 0 6px #9d00ff, 0 0 12px #9d00ff;
+    color: #9d00ff;
+  }
+  75% {
+    text-shadow: 0 0 3px #00ffcc, 0 0 6px #00ffcc, 0 0 12px #00ffcc;
+    color: #00ffcc;
+  }
+  100% {
+    text-shadow: 0 0 3px #00faff, 0 0 6px #00faff, 0 0 12px #00faff;
+    color: #00faff;
+  }
+}
+
+  </style>
+</head>
+<body>
+<div id="particles-js"></div>
+  <h1>🚀 NeoTech Featured✨</h1>
+  <div class="grid">
+    <!-- Contest 1 -->
+    <div class="card">
+      <h3>GonitZoggo Contests</h3>
+      <p>Be Ready to Battle.</p>
+      <a href="https://gonitzoggo.com/contests" target="_blank">Join Now</a>
+    </div>
+
+    <!-- Contest 2 -->
+    <div class="card">
+      <h3>Math & Physics Arena</h3>
+      <p>Showcase your logical brilliance in problem-solving.</p>
+      <a href="https://gonitzoggo.com/problems/topics" target="_blank">Join Now</a>
+    </div>
+
+    <!-- Contest 3 -->
+    <div class="card">
+      <h3>NeoTech Hackathon</h3>
+      <p>Innovate for sustainability with code and science.</p>
+      <a href="https://devpost.com/hackathons" target="_blank">Join Now</a>
+    </div>
+
+    <!-- Contest 4 -->
+    <div class="card">
+      <h3>Future Minds Quiz</h3>
+      <p>Compete in tech, astronomy, AI and ethics quizzes.</p>
+      <a href="#" target="_blank">Coming soon</a>
+    </div>
+  </div>
+<script>
+  particlesJS("particles-js", {
+    particles: {
+      number: { value: 80 },
+      color: { value: "#00faff" },
+      shape: { type: "circle" },
+      opacity: { value: 0.5 },
+      size: { value: 3 },
+      line_linked: {
+        enable: true,
+        distance: 150,
+        color: "#00faff",
+        opacity: 0.4,
+        width: 1
+      },
+      move: {
+        enable: true,
+        speed: 2,
+        direction: "none",
+        random: false,
+        straight: false,
+        bounce: true
+      }
+    },
+    interactivity: {
+      detect_on: "canvas",
+      events: {
+        onhover: { enable: true, mode: "repulse" },
+        onclick: { enable: true, mode: "push" }
+      },
+      modes: {
+        repulse: { distance: 100 },
+        push: { particles_nb: 4 }
+      }
+    },
+    retina_detect: true
+  });
+</script>
+</body>
+</html>
