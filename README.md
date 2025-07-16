@@ -1,6 +1,6 @@
 # 🚀 NeoTech — The Future of Technology
 
-Welcome to **NeoTech**, a next-generation, futuristic tech platform website designed with sleek animations, vibrant glassmorphism aesthetics, and ultra-smooth performance. This repository contains the complete front-end code for the NeoTech website, built using **React**, **Tailwind CSS**, and **Framer Motion**.
+Welcome to **NeoTech**, a next-generation, futuristic tech platform website designed to make a deep connection with Olympiad enthusiast and Religious hearts with sleek animations, vibrant glassmorphism aesthetics, and ultra-smooth performance. This repository contains the complete front-end code for the NeoTech website, built using **React**, **Tailwind CSS**, and **Framer Motion**.
 
 ## 🌐 Live Demo
 
